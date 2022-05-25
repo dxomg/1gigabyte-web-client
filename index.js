@@ -436,7 +436,7 @@ async function fromTheOutside (params, addr) {
 
   opts.server = `${server}:${port}`
   opts.proxy = `${proxy}:${proxyPort}`
-  opts.username = params.get('username') ?? `pviewer${Math.floor(Math.random() * 1000)}`
+  opts.username = params.get('username') ?? `web${Math.floor(Math.random() * 1000)}`
   opts.password = params.get('password') ?? ''
   opts.botVersion = params.get('version') ?? false
 
